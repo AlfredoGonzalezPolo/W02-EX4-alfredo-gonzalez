@@ -7,6 +7,10 @@ export const checkAllVocalsInWord = (word) => {
   return lowerCaseWordIncludesVocals;
 };
 
-export const checkIfNumberIsEven = (number) => number % 2 === 0;
+export const checkIfNumberIsEven = (numberValue) => numberValue % 2 === 0;
 
-export const checkIfIsPrime = () => {};
+// Export const checkIfNumberIsPrime = (numberValue) => {
+//   if (numberValue % numberValue === 1 && )
+// };
+
+export const checkGreatestNumber = (numberList) => numberList.sort().pop();
